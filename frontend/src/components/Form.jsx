@@ -39,7 +39,7 @@ function Form({ route, method }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="gap-10  flex flex-col items-center justify-center mx-4 my-auto p-4 rounded-lg  shadow-xl shadow-gray-600 max-w-[40rem] min-w-[30rem]"
+      className="gap-10  flex flex-col items-center justify-center mx-4 my-auto p-4 rounded-lg max-w-[40rem] min-w-[30rem]"
     >
       <h1 className="text-2xl font-semibold">{title}</h1>
       <input
