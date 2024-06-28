@@ -57,10 +57,10 @@ function Form({ route, method }) {
         className="w-[90%] p-2 mx-2 my-0 border-2 rounded-md border-black"
       />
       <button
-        className="hover:cursor-pointer w-[75%] p-2 mx-4 my-0 bg-[#007bff] active:scale-95 hover:bg-[#007bffb2] text-white border-none rounded-xl"
+        className="hover:cursor-pointer w-[75%] p-2 mx-4 my-0 bg-[#007bffb2] active:scale-95 hover:bg-[#007bff] text-white border-none rounded-xl"
         type="submit"
       >
-        {title}
+        {loading ? "Loading..." : title}
       </button>
       <a
         href={method === "login" ? "/register" : "/login"}
