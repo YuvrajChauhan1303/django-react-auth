@@ -1,7 +1,8 @@
 # TECHSTACK
+
 - Django:
-    - CORS
-    - Django Rest Framework
+  - CORS
+  - Django Rest Framework
 - React:
-    - Axios
-    - 
+  - Axios
+  - Tailwind
